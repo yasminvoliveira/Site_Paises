@@ -1,0 +1,131 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    justify-content: center;
+    background-color: rgb(222, 217, 255);
+
+}
+
+header {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    background-color: rgb(30, 30, 94);
+    height: 60px;
+
+}
+
+.intro{
+    width: 1000px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 20px;
+    margin-left: 200px;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    background-color: rgb(30, 30, 94);
+    border-radius: 20px;
+    color: rgb(250, 232, 210);
+}
+
+main {
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+    justify-content: center;
+    margin-left: 200px;
+    background-color:rgb(30, 30, 94);
+    border-radius: 20px;
+    height: 520px;
+    width: 1000px;
+    padding: 10px;
+}
+
+.card {
+    display: flex;
+    flex-direction: column;
+    width: 250px;
+    height: 420px;
+    background-image: linear-gradient(rgb(115, 26, 123), rgb(184, 45, 197));
+    border-radius: 30px;
+    border: 6px solid rgb(50, 3, 57);
+    padding: 20px;
+    justify-content: center;
+    box-shadow: 0px 5px 5px rgb(27, 20, 47);
+}
+
+.titulo {
+    width: 200px;
+    height: 70px;
+    text-align: center;
+    background-color: rgb(139, 27, 149);
+    border-bottom-right-radius: 10px;
+    border-bottom-left-radius: 10px;
+    border: 2px solid rgb(250, 239, 215);
+    color: antiquewhite;
+    margin-top: 5px;
+
+}
+
+.bandeira {
+    width: 130px;
+    height:90px;
+    border-radius: 8px;
+    border: 1px solid rgb(250, 239, 215);
+    margin: 35px;
+    margin-bottom: 15px;
+    margin-top: 15px;
+}
+
+
+.logo{
+    width: 250px;
+    height: 60px;
+}
+
+nav {
+    display: flex;
+    flex-direction:row;
+    gap: 20px;
+    margin-top:15px;
+    margin-right: 20px;
+    
+}
+nav a{
+    color:antiquewhite
+}
+li {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    gap: 2px;
+    color: antiquewhite;
+    background-color: rgb(138, 25, 129);
+    margin-bottom: 13px;
+    border-bottom-right-radius: 7px;
+    border-top-right-radius: 7px;
+    padding-left: 10px;
+    box-shadow: 0px 5px 5px rgb(41, 41, 41);
+
+}
+
+.valor {
+    color: black;
+    background-color: antiquewhite;
+    width: 65px;
+    border-bottom-right-radius: 7px;
+    border-top-right-radius: 7px;
+    padding: 2px;
+}
+
+li:hover {
+    transition: all 0.5s ease;
+    transform: translate(20px);
+}
